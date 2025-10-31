@@ -711,9 +711,10 @@ wheels = [
 [[package]]
 name = "understanding-muon"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "manim" },
+    { name = "moderngl" },
 ]
 
 [package.optional-dependencies]
@@ -725,6 +726,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "manim", specifier = ">=0.19.0" },
+    { name = "moderngl", specifier = ">=5.12.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.13.0" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.8.0" },
 ]

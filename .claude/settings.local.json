@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(manim:*)",
-      "Bash(uv run manim:*)"
+      "Bash(uv run manim:*)",
+      "Read(//Users/johnlarkin/Documents/coding/understanding-muon/**)"
     ],
     "deny": [],
     "ask": []
